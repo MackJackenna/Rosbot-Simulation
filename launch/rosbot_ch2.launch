@@ -15,7 +15,7 @@
   <arg name="debug" default="false"/>
   <arg name="physics" default="ode"/>
   <arg name="verbose" default="false"/>
-  <arg name="world_name" value="$(find robot_description)/worlds/$(arg world).world"/>
+  <arg name="world_name" value="$(find robot_description)/worlds/challenge_2.world"/>
   <arg name="respawn_gazebo" default="false"/>
   <arg name="use_clock_frequency" default="false"/>
   <arg name="pub_clock_frequency" default="100"/>
@@ -48,7 +48,7 @@
 	
 
   <!-- these are the arguments you can pass this launch file, for example paused:=true -->
-  <arg name="model" default="$(find robot_description)/urdf/robot2_laser.xacro" />
+  <arg name="model" default="$(find rosbot_description)/urdf/rosbot.xacro" />
 
   <!-- Load the URDF into the ROS Parameter Server -->
   <param name="robot_description" 
